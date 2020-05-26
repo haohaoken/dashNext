@@ -1,2 +1,3 @@
 rootProject.name='DashNext'
-include ':app'
+include ':customer'
+include ':mylibrary'
