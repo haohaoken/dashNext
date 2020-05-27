@@ -25,10 +25,10 @@ public final class SharedClass {
     /**
      * Status of an order
      */
-//    public static final int STATUS_UNKNOWN = 1000;
-//    public static final int STATUS_DELIVERING = 1001;
-//    public static final int STATUS_DELIVERED = 1002;
-//    public static final int STATUS_DISCARDED = 1003;
+    public static final int STATUS_UNKNOWN = 1000;
+    public static final int STATUS_DELIVERING = 1001;
+    public static final int STATUS_DELIVERED = 1002;
+    public static final int STATUS_DISCARDED = 1003;
 
     /**
      * Useful values key to retrieve data from activity (Intent)
@@ -48,8 +48,8 @@ public final class SharedClass {
      * Firebase paths
      */
     public static String ROOT_UID = "";
-//    public static User user;
-//    public static final String RESTAURATEUR_INFO = "/restaurants";
+    public static User user;
+    public static final String STORE_INFO = "/stores";
 //    public static final String DISHES_PATH =  "/dishes";
 //    public static final String RESERVATION_PATH = "/reservation";
 //    public static final String ACCEPTED_ORDER_PATH = "/order";
@@ -62,5 +62,5 @@ public final class SharedClass {
     /**
      * List of orders for a customer
      */
-//    public static HashMap<String, Integer> orderToTrack = new HashMap<String, Integer>();
+    public static HashMap<String, Integer> orderToTrack = new HashMap<String, Integer>();
 }
